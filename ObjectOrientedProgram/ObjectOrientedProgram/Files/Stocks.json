@@ -1,0 +1,18 @@
+ [
+    {
+      "Stock": "Airtel",
+      "NoOfStocks": 25,
+      "PriceperStock": 10
+    },
+    {
+      "Stock": "TVS",
+      "NoOfStocks": 10,
+      "PriceperStock": 29
+    },
+    {
+      "Stock": "Jio",
+      "NoOfStocks": 35,
+      "PriceperStock": 20
+    }
+ ]
+

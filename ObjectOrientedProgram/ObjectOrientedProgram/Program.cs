@@ -10,7 +10,7 @@ namespace ObjectOrientedProgram
             while (flag)
             {
                 Console.WriteLine("Welcome to Object Oriented Programming!!");
-                Console.WriteLine("Choose an Option..:\n 1.JSON \n 2.Exit");
+                Console.WriteLine("Choose an Option..:\n 1.JSON \n 2.InventoryMangement\n 3.StockMangement\n 4.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -24,6 +24,10 @@ namespace ObjectOrientedProgram
                         inventory.DisplayData("Rice");
                         break;
                     case 3:
+                        Stock stock = new Stock();
+                        stock.DisplayData(@"C:\Users\Venu Gopal Reddy\Bridgelabz\c#\.net\ObjectOrientedProgram\ObjectOrientedProgramming\ObjectOrientedProgram\ObjectOrientedProgram\Files\Stocks.json");
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
