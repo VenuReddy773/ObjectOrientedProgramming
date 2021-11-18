@@ -19,6 +19,11 @@ namespace ObjectOrientedProgram
                         inv.DisplayData(@"C:\Users\Venu Gopal Reddy\Bridgelabz\c#\.net\ObjectOrientedProgram\ObjectOrientedProgramming\ObjectOrientedProgram\ObjectOrientedProgram\Files\Inventory.json");
                         break;
                     case 2:
+                        InventoryMain inventory = new InventoryMain();
+                        inventory.DisplayData(@"C:\Users\Venu Gopal Reddy\Bridgelabz\c#\.net\ObjectOrientedProgram\ObjectOrientedProgramming\ObjectOrientedProgram\ObjectOrientedProgram\Files\InventoryList.json");
+                        inventory.DisplayData("Rice");
+                        break;
+                    case 3:
                         flag = false;
                         break;
                 }
